@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'books' => 'books#new'
   post 'books' => 'books#create'
   
-  get 'books/:id' => 'book#show'
+  get 'books/:id' => 'books#show'
   
   resources :books
 end
